@@ -3,7 +3,7 @@ import setuptools
 
 setuptools.setup(
     name='lunar_test',
-    version='0.0.4',
+    version='0.0.5',
     author='RimoChan',
     author_email='the@librian.net',
     description='lunar_test',
