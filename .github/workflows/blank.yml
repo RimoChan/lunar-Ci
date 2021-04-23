@@ -1,5 +1,9 @@
 name: CI
-on: [push]
+on:
+  push:
+    branches: [ slave ]
+  pull_request:
+    branches: [ slave ]
 jobs:
   build:
     runs-on: ubuntu-latest
